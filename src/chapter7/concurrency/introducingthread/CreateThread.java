@@ -1,4 +1,4 @@
-package chapter7.concurrency;
+package chapter7.concurrency.introducingthread;
 
 // 2 cách định nghĩa task
 // sử dụng Runnable object / lambda expression trong Thread constructor
