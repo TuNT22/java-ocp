@@ -1,4 +1,4 @@
-package chapter7.concurrency;
+package chapter7.concurrency.introducingthread;
 
 // Using a while() loop to check for data without some kind of delay
 // => a very bad coding practice

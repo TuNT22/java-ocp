@@ -1,4 +1,4 @@
-package chapter7.concurrency.executor;
+package chapter7.concurrency.creatingthread.singlethreadexecutor;
 
 import java.util.concurrent.*;
 
