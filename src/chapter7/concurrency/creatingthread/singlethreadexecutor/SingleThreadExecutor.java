@@ -18,7 +18,8 @@ public class SingleThreadExecutor {
             service.execute(() -> System.out.println("Printing zoo inventory")); // 3
             System.out.println("end");
 
-            // Vì các task ở 1, 2, 3 dc thực hiện bởi 1 thread => thực hiện theo trình tự
+            // Vì các task ở 1, 2, 3 dc thực hiện bởi 1 thread
+            // => thực hiện theo trình tự
         } finally {
             if (service != null)
                 service.shutdown(); // cần shutdown sau khi sử dụng xong service

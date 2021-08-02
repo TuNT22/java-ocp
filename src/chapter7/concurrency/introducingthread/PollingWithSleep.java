@@ -11,11 +11,11 @@ public class PollingWithSleep {
                 PollingWithSleep.counter++;
         }).start();
 
-        while (PollingWithSleep.counter < 100) {
+        while (PollingWithSleep.counter < 500) {
             System.out.println("Not reach yet");
 
             // Thread.sleep() throws the checked InterruptedException
-            Thread.sleep(100); // delay
+            Thread.sleep(0); // delay
         }
         System.out.println("Reach");
     }
